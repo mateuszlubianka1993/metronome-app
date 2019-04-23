@@ -1,0 +1,24 @@
+.header-container {
+    padding-top: 10px;
+    /* background-color:; */
+    margin-bottom: 25px;
+}
+.header-row {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #EEE;
+    padding-bottom: 20px;
+    /* color:; */
+}
+.header-icon {
+    font-size: 52px;
+    margin-right: 20px;
+}
+h1 {
+    font-size: 52px;
+}
+.color-text {
+    /* color: */
+}
