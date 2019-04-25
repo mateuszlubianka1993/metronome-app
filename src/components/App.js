@@ -17,7 +17,10 @@ class App extends React.Component {
         return (
             <div className="ui container">
                 <Header />
-                <Metronome onChangeInput={this.onChangeInput}/>
+                <Metronome 
+                    onChangeInput={this.onChangeInput}
+                    bpm={this.state.bpm}
+                />
             </div>
         );
     };
