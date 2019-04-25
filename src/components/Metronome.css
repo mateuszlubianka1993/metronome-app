@@ -1,0 +1,15 @@
+.metronome-container {
+    width: 400px;
+    border: 2px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+}
+.metronome-input-box {
+    padding: 15px;
+}
+.metronome-input-box input {
+    width: 90%;
+    margin: 10px;
+}
