@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/metronome-app/static/css/main.1d6dd4d0.chunk.css",
+    "main.js": "/metronome-app/static/js/main.003cc930.chunk.js",
+    "main.js.map": "/metronome-app/static/js/main.003cc930.chunk.js.map",
+    "runtime~main.js": "/metronome-app/static/js/runtime~main.21ee9e44.js",
+    "runtime~main.js.map": "/metronome-app/static/js/runtime~main.21ee9e44.js.map",
+    "static/js/2.6efc73d3.chunk.js": "/metronome-app/static/js/2.6efc73d3.chunk.js",
+    "static/js/2.6efc73d3.chunk.js.map": "/metronome-app/static/js/2.6efc73d3.chunk.js.map",
+    "index.html": "/metronome-app/index.html",
+    "precache-manifest.892c83556cd4ca92183007875992acf5.js": "/metronome-app/precache-manifest.892c83556cd4ca92183007875992acf5.js",
+    "service-worker.js": "/metronome-app/service-worker.js",
+    "static/css/main.1d6dd4d0.chunk.css.map": "/metronome-app/static/css/main.1d6dd4d0.chunk.css.map",
+    "static/media/index.css": "/metronome-app/static/media/band-bass-black-and-white-811838.beb536f8.jpg",
+    "static/media/click2.wav": "/metronome-app/static/media/click2.fe0ded65.wav"
+  }
+}
