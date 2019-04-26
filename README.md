@@ -3,6 +3,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # METRONOME APP
 > Hi everyone! This is my version of simple METRONOME APP. 
 
+## Live
+https://mateuszlubianka1993.github.io/metronome-app/
+
 ## Technologies:
 * React
 * Java Script
@@ -16,7 +19,7 @@ This is simple Metronome App. You can use it to develop your music skills.
 
 ## Screenshots
 ![screenshot - for laptop](./images/desktop.jpg)
-![screenshot - for mobile](./images/desktop.jpg)
+![screenshot - for mobile](./images/mobile.jpg)
 
 ## Contact
 Created by [lubiankamateusz@gmail.com] - feel free to contact me!
