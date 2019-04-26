@@ -1,16 +1,16 @@
 .header-container {
-    padding-top: 10px;
-    /* background-color:; */
-    margin-bottom: 25px;
+    padding: 35px 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 80px;
 }
 .header-row {
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px solid #EEE;
+    border-bottom: 2px solid #f4cd2a;
     padding-bottom: 10px;
-    /* color:; */
+    color: #333
 }
 .header-icon {
     font-size: 52px;
@@ -20,5 +20,27 @@ h1 {
     font-size: 52px;
 }
 .color-text {
-    /* color: */
+    color: #f4cd2a;
 }
+
+@media (min-width: 480px) and (max-width: 575px) {
+    .header-container {
+        padding: 30px 10px;
+        margin-bottom: 60px;
+    }
+    .header-icon {
+        font-size: 46px;
+        margin-right: 20px;
+    }
+    h1 {
+        font-size: 46px;
+    }
+  }
+  @media (max-width:480px) {
+    .header-icon {
+        display: none;
+    }
+    h1 {
+        font-size: 38px;
+    }
+  }

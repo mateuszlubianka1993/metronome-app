@@ -1,6 +1,7 @@
 .metronome-container {
-    width: 400px;
-    border: 2px solid #000;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 2px solid #f4cd2a;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -12,4 +13,144 @@
 .metronome-input-box input {
     width: 90%;
     margin: 10px;
+    background-color: transparent;
 }
+.bpm-display {
+    border: 2px solid #f4cd2a;
+    border-radius: 10px;
+    color: #333333;
+    width: 60%;
+    padding: 20px;
+    font-size: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+input[type=range] {
+    height: 25px;
+    -webkit-appearance: none;
+    margin: 10px 0;
+    width: 100%;
+  }
+  input[type=range]:focus {
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 0px 0px 0px #000000;
+    background: #F4CD2A;
+    border-radius: 1px;
+    border: 0px solid #000000;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    box-shadow: 0px 0px 0px #F4CD2A;
+    border: 1px solid #F4CD2A;
+    height: 18px;
+    width: 18px;
+    border-radius: 25px;
+    background: #F4CD2A;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -7px;
+  }
+  input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #F4CD2A;
+  }
+  input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 0px 0px 0px #000000;
+    background: #F4CD2A;
+    border-radius: 1px;
+    border: 0px solid #000000;
+  }
+  input[type=range]::-moz-range-thumb {
+    box-shadow: 0px 0px 0px #F4CD2A;
+    border: 1px solid #F4CD2A;
+    height: 18px;
+    width: 18px;
+    border-radius: 25px;
+    background: #F4CD2A;
+    cursor: pointer;
+  }
+  input[type=range]::-ms-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+  input[type=range]::-ms-fill-lower {
+    background: #F4CD2A;
+    border: 0px solid #000000;
+    border-radius: 2px;
+    box-shadow: 0px 0px 0px #000000;
+  }
+  input[type=range]::-ms-fill-upper {
+    background: #F4CD2A;
+    border: 0px solid #000000;
+    border-radius: 2px;
+    box-shadow: 0px 0px 0px #000000;
+  }
+  input[type=range]::-ms-thumb {
+    margin-top: 1px;
+    box-shadow: 0px 0px 0px #F4CD2A;
+    border: 1px solid #F4CD2A;
+    height: 18px;
+    width: 18px;
+    border-radius: 25px;
+    background: #F4CD2A;
+    cursor: pointer;
+  }
+  input[type=range]:focus::-ms-fill-lower {
+    background: #F4CD2A;
+  }
+  input[type=range]:focus::-ms-fill-upper {
+    background: #F4CD2A;
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .metronome-container {
+      width: 60%;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 767px) {
+    .metronome-container {
+      width: 70%;
+      padding: 15px;
+    }
+    .bpm-display {
+      padding: 18px;
+      font-size: 32px;
+    }
+  }
+  @media (min-width: 480px) and (max-width: 575px) {
+    .metronome-container {
+      width: 80%;
+      padding: 15px;
+    }
+    .bpm-display {
+      padding: 15px;
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+  }
+  @media (max-width:480px) {
+    .metronome-container {
+      width: 90%;
+      padding: 15px;
+    }
+    .bpm-display {
+      padding: 15px;
+      font-size: 30px;
+      margin-bottom: 10px;
+      width: 75%;
+    }
+  }
